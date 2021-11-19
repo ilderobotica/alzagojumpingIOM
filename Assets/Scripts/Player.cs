@@ -20,8 +20,7 @@ public class Player : MonoBehaviour
     
     } /*NUEVO*/
     void FixedUpdate()
-    }
-
+    {
         rb.velocity = new Vector2(movHor, rb.velocity.y);  /*NUEVO*/
     }/*NUEVO*/
 }
